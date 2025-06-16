@@ -68,8 +68,8 @@ npm run dev
 ##  Configuration
 
 The system uses the following API keys (configured in the source code):
-- OpenWeatherMap API: `e63030fdb721f722154ee55f2ebde11d`
-- NewsAPI: `bae65e1ea0e646fcb362af3f747c53db`
+- OpenWeatherMap API
+- NewsAPI
 - SpaceX API: Public API (no key required)
 
 ##  Usage Examples
@@ -117,29 +117,29 @@ The system provides real-time visibility into:
 - **Professional Aesthetics**: Clean typography and consistent color scheme
 - **Interactive Elements**: Hover states and micro-interactions
 
-## 🔍 Evaluation Criteria
+##  Evaluation Criteria
 
 The system is designed to meet the following evaluation standards:
 
 ### Agent Chaining & Data Enrichment
-- ✅ Agents work in sequence, not isolation
-- ✅ Each agent enriches data from previous agents
-- ✅ Clear dependency chain between agents
+-  Agents work in sequence, not isolation
+-  Each agent enriches data from previous agents
+-  Clear dependency chain between agents
 
 ### Planner's Routing Logic
-- ✅ Intelligent goal analysis and plan creation
-- ✅ Dynamic agent routing based on goal content
-- ✅ Optimal execution sequence determination
+-  Intelligent goal analysis and plan creation
+-  Dynamic agent routing based on goal content
+-  Optimal execution sequence determination
 
 ### Iterative Refinement
-- ✅ Continuous goal assessment until achievement
-- ✅ Agent result validation and enhancement
-- ✅ Final synthesis of all collected data
+-  Continuous goal assessment until achievement
+-  Agent result validation and enhancement
+-  Final synthesis of all collected data
 
 ### Code Quality & Documentation
-- ✅ Modular, maintainable code structure
-- ✅ Comprehensive documentation
-- ✅ Professional UI/UX implementation
+-  Modular, maintainable code structure
+-  Comprehensive documentation
+-  Professional UI/UX implementation
 
 ##  Testing
 
@@ -188,4 +188,5 @@ This project is private and proprietary. All rights reserved.
 
 ---
 
-*This system demonstrates advanced AI agent orchestration with real-world API integration and professional UI/UX design.*
+*This system demonstrates advanced AI agent orchestration with real-world API integration and professional UI/UX design.
+The .env files api keys has been removed for privacy*
