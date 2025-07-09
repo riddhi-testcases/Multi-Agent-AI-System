@@ -16,7 +16,7 @@ export class PlannerAgent {
         dependencies: []
       });
     }
-
+//weather
     if (goalLower.includes('weather') || goalLower.includes('condition')) {
       steps.push({
         agent: 'Weather',
