@@ -2,7 +2,7 @@ export class AnalysisAgent {
   constructor() {
     this.name = 'Analysis';
   }
-
+//goal
   async synthesizeResults(goal, results) {
     const { launchData, weatherData, newsAnalysis } = results;
     
